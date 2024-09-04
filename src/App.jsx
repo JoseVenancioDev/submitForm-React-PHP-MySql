@@ -6,7 +6,7 @@ function App() {
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
   const [email, setEmail] = useState("");
-  
+
   const handleSubmit = () => {
     if (!name ||!mobile ||!email) {
       alert("All fields are required!");
